@@ -1,0 +1,12 @@
+.posts {
+    display: flex;
+    gap: 44px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 327px;
+    height: 327px;
+    object-fit: cover;
+}

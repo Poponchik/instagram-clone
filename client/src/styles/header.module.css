@@ -1,0 +1,140 @@
+.inner_container{
+    padding-bottom: 44px;
+}
+.header {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.01);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.content_header {
+    width: 1070px;
+    margin: 0 auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    width: 100px;
+}
+
+.input_search {
+    height: 34px;
+    width: 260px;
+    align-items: center;
+    display: flex;
+    background-color: #EFEFEF;
+    border-radius: 6px;
+    position: relative;
+}
+
+.icon_search {
+    margin: 8px;
+    color: #8E8E8E;
+    font-size: 22px;
+}
+
+.input {
+    background-color: #EFEFEF;
+    color: #8E8E8E;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: #262626;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.icon_exit{
+    color: #262626;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+
+.home_image {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    padding: 1px;
+    border-radius: 100px;
+    border: 1px solid #262626;
+}
+
+.wrapper{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+.div_result_search {
+    width: 250px;
+    min-height: 0px;
+    background-color: #fff;
+    position: absolute;
+    top: 43px;
+    left: 37.5%;
+    z-index: 1000;
+}
+
+.main_active{
+    color: #262626;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.main_nanactive{
+    color: #8E8E8E;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.user_search {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user_search_photo {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.user_search_username {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
+.user_search_username{
+    text-decoration: none;
+    color: #000;
+}

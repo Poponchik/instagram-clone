@@ -1,0 +1,240 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: #FAFAFA;
+}
+
+.inner_container {
+    margin: 0 auto;
+}
+
+
+
+.main {
+    width: 1070px;
+    min-height: 100vh;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.inner_main {
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_info {
+    margin: 0 auto;
+    display: flex;
+    gap: 44px;
+}
+
+
+.main_image {
+    width: 223px;
+    height: 223px;
+    object-fit: cover;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin: 0;
+    font-weight: 100;
+    margin-right: 24px;
+    line-height: 24px;
+}
+
+.edit_button {
+    background-color: #FAFAFA;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    border-style: solid;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 6px 12px 6px 12px;
+    border-radius: 6px;
+    border-color: #DBDBDB;
+    line-height: 25px;
+}
+
+.subscibe_button {
+    background-color: #739AFF;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    width: 120px;
+    cursor: pointer;
+    padding: 7px 12px 7px 12px;
+    border-radius: 6px;
+    line-height: 25px;
+}
+
+.unsubscribe_block {
+    display: flex;
+}
+
+.unsubscibe_button {
+    width: 120px;
+    background-color: #FAFAFA;
+    color: #262626;
+    border: 1px solid #DBDBDB;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px 12px 6px 12px;
+    border-radius: 6px;
+    line-height: 25px;
+}
+
+.message_button {
+    width: 100%;
+    background-color: #FAFAFA;
+    color: #262626;
+    border: 1px solid #DBDBDB;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px 12px 6px 12px;
+    border-radius: 6px;
+    line-height: 25px;
+}
+
+.info_block {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.info_account {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.amount {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.account_info {
+    font-size: 18px;
+}
+
+.account_name {
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.description {
+    width: 450px;
+    line-height: 26px;
+    margin-top: 12px;
+}
+
+.posts_block {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+.line {
+    border: 0;
+    border-top: 1px solid #DBDBDB;
+    margin: 0;
+    height: 1px;
+}
+
+.title_posts {
+    gap: 40px;
+    margin-top: 12px;
+    display: inline-flex;
+    vertical-align: top;
+    line-height: 18px;
+
+}
+
+.save_block {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+
+}
+
+.icon_save {
+    color: #8E8E8E;
+}
+
+.icon_post {
+    color: #262626;
+}
+
+.saved {
+    color: #8E8E8E;
+}
+
+
+
+.save_block_nactive {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    cursor: pointer;
+    color: #8E8E8E;
+}
+
+.save_block_active {
+    display: flex;
+    align-items: center;
+
+    gap: 4px;
+    cursor: pointer;
+    color: #000;
+}
+
+.noPosts_div{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.noPosts{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    color:#d0d0d0;
+    font-size: 30px;
+}
